@@ -1,0 +1,167 @@
+<!doctype html>
+<!--Karen Rees-Milton-->
+<html lang="en">
+<head>
+  <title>Sales or Services</title>
+  <link rel ="stylesheet" type = "text/css" href = "./css/stylesheet.css" />
+  <script type = "text/javascript" src = "./Javascript/javascript.js"></script>
+  <meta charset = "UTF-8">
+</head>
+<body onload = "dateFunction()">
+	<div class="top">
+	  <h1>Windstore</h1>
+	  <h2>Sales or Services</h2>
+	</div>
+	  <div class="firstFloat">
+		  <ul class="buttons">
+			<li><a target=_blank href = "index.html"><img src="./imgs/button_home.png" height="20" width="75" alt="Home"/></a></li>
+			<li><a target=_blank href = "Gear.html"><img src="./imgs/button_Gear.png" height="20" width="75" alt="Gear"/></a></li>
+			<li><a target=_blank href = "lessons.html"><img src="./imgs/button_Lessons.png" height="20" width="75" alt="Lessons"/></a></li>
+			<li><a target=_blank href = "salesOrServices.html"><img src="./imgs/button_Sales-or-Services.png" height="20" width="75" alt="Sales or Services"/></a></li>
+			<li><a target=_blank href = "aboutPage.html"><img src="./imgs/button_About-Us.png" height="20" width="75" alt="About Us"/></a></li>
+		  </ul>
+	  </div>
+	  <div class="secondFloat">
+		  <form action = "Form.html">
+			  <fieldset>
+				  <legend>Contact Information</legend>
+				  <p>
+				  <label>Name</label>
+				  <input type = "text" id = "name" value = "John Doe"/>
+				  </p>
+				  <p>
+				  <label>Street Address</label>
+				  <input type = "text" id = "street" value = "99 Easy Street"/>
+				  </p>
+				  <p>
+				  <label>City</label>
+				  <input type = "text" id = "city" value = "Kingston"/>
+				  </p>
+				  <p>
+				  <label>Province/Territory</label>
+				  <select id = "province">
+					  <option value = "Alberta">Alberta</option>
+					  <option value = "British Columbia">British Columbia</option>
+					  <option value = "Manitoba">Manitoba</option>
+					  <option value = "New Brunswick">New Brunswick</option>
+					  <option value = "NewFoundland">NewFoundland</option>
+					  <option value = "Nortwest Territories">Nortwest Territories</option>
+					  <option value = "Nova Scotia">Nova Scotia</option>
+					  <option value = "Nunavut">Nunavut</option>
+					  <option value = "Ontario">Ontario</option>
+					  <option value = "Prince Edward Island">Prince Edward Island</option>
+					  <option value = "Quebec">Quebec</option>
+					  <option value = "Saskatchewan">Saskatchewan</option>
+					  <option value = "Yukon">Yukon</option>
+				  </select>
+				  </p>
+				  <p>
+				  <label>Postal Code (no spaces)</label>
+				  <input type = "text" id = "postalCode"/>
+				  </p>
+			  </fieldset>
+			  <fieldset>
+				  <legend>Credit Card Information</legend>
+				  <label>Credit Card</label>
+				  <input type = "radio" name = "creditCard" value = "Visa"/> Visa
+				  <input type = "radio" name = "creditCard" value = "Mastercard"/>Mastercard
+				  <input type = "radio" name = "creditCard" value = "American Express"/>American Express
+				  <p>Credit Card</p>
+				  <p>
+				  <label>Number</label>
+				  <input type = "password" id = "cardNumber"/>
+				  <label>Expiry(mm/yy)</label>
+				  <input type = "password" id = "Expiry"/>
+				  <label>Code</label>
+				  <input type = "password" id = "Code"/>
+				  </p>
+			  </fieldset>
+			  <fieldset>
+				  <legend>Order Details</legend>
+				  <p>
+				  <label>Pick-up or Delivery?</label>
+				  <input type = "radio" name = "delivery" value = "delivery"/>delivery
+				  <input type = "radio" name = "delivery" value = "pick-up"/>pick-up
+				  </p>
+				  <p>
+				  <label>Wetsuit ($250)</label>
+				  <input type = "radio" name = "gender" value = "male"/>male
+				  <input type = "radio" name = "gender" value = "female"/>female
+				  </p>
+				  <p>
+				  <label>Wetsuit size</label>
+				  <input type = "radio" name = "size" value = "38"/>38
+				  <input type = "radio" name = "size" value = "40"/>40
+				  <input type = "radio" name = "size" value = "42"/>42
+				  <input type = "radio" name = "size" value = "44"/>44
+				  <input type = "radio" name = "size" value = "46"/>46
+				  <input type = "radio" name = "size" value = "48"/>48
+				  <input type = "radio" name = "size" value = "50"/>50
+				  <input type = "radio" name = "size" value = "52"/>52
+				  <input type = "radio" name = "size" value = "52"/>52
+				  </p>
+				  <p>
+				  <label>Board ($1,000)</label>
+				  <input type = "radio" name = "board" value = "75"/>75L 
+				  <input type = "radio" name = "board" value = "85"/>85L 
+				  <input type = "radio" name = "board" value = "95"/>95L 
+				  <input type = "radio" name = "board" value = "105"/>105L 
+				  <input type = "radio" name = "board" value = "125"/>125L 
+				  <input type = "radio" name = "board" value = "145"/>145L
+				  </p>
+				  <p>
+				  <label>Sail ($750)</label>  
+				  <input type = "radio" name = "sail" value = "3.5"/>3.5
+				  <input type = "radio" name = "sail" value = "4.0"/>4.0
+				  <input type = "radio" name = "sail" value = "4.5"/>4.5
+				  <input type = "radio" name = "sail" value = "5.0"/>5.0
+				  <input type = "radio" name = "sail" value = "5.5"/>5.5
+				  <input type = "radio" name = "sail" value = "6.0"/>6.0
+				  <input type = "radio" name = "sail" value = "6.5"/>6.5
+				  <input type = "radio" name = "sail" value = "7.5"/>7.5
+				  <input type = "radio" name = "sail" value = "8.5"/>8.5
+				  </p>
+				  <p>
+				  <label>Booms($300)</label>
+				  <input type = "radio" name = "booms" value = "carbon"/>carbon
+				  <input type = "radio" name = "booms" value = "aluminum"/>aluminum
+				  </p>
+				  <p>
+				  <label>mast ($500)</label>
+				  <select id = "mast">
+				  <option value = "370">370</option>
+				  <option value = "400">400</option>
+				  <option value = "430">430</option>
+				  <option value = "460">460</option>
+				  <option value = "490">490</option>
+				  <option value = "520">520</option>
+				  </select>
+				  </p>
+			  </fieldset>
+			  <fieldset>
+				  <legend>Events you would be interested in</legend>
+				  <label>BBQs</label>
+				  <input type = "checkbox" id = "BBQs"/>
+				  <label>Race night</label>
+				  <input type = "checkbox" id = "raceNight"/>
+				  <label>Freestyle competitions</label>
+				  <input type = "checkbox" id = "freestyle"/>
+				  <label>Guest instructor</label>
+				  <input type = "checkbox" id = "instructor"/>
+			  </fieldset>
+			  <fieldset>
+				  <legend>Comments</legend>
+				  <textarea id = "feedback" rows = "10" cols = "25" maxlength = "256"></textarea>
+			  </fieldset>
+			  <div class = "submit">
+				  <input type = "submit" value = "Submit"/>
+				  <input type = "reset" value = "Clear"/>
+			  </div>
+			  </form>
+	  </div>
+	  <div class="bottom">
+		  <footer><span class="Windstore">Windstore:</span> The one stop for all of your windsurfing needs!<Span id="date"> Today's date:</span>
+		  <span id = "showDate" ></span></footer>
+	  </div>
+	</body>
+</html> 

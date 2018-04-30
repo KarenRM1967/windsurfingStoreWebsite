@@ -1,0 +1,96 @@
+<!doctype html>
+<!--Karen Rees-Milton-->
+<html lang="en">
+<head>
+  <title>Gear</title>
+  <link rel ="stylesheet" type = "text/css" href = "./css/stylesheet.css" />
+  <script type = "text/javascript" src = "./Javascript/javascript.js"></script>
+  <meta charset = "UTF-8">
+</head>
+<body onload = "dateFunction()">
+  <div class="top">
+    <h1>Windstore</h1>
+    <h2>Gear</h2>
+  </div>
+  <div class="firstFloat">
+	  <ul class="buttons">
+		<li><a target=_blank href = "index.html"><img src="./imgs/button_home.png" height="20" width="75" alt="Home"/></a></li>
+		<li><a target=_blank href = "Gear.html"><img src="./imgs/button_Gear.png" height="20" width="75" alt="Gear"/></a></li>
+		<li><a target=_blank href = "lessons.html"><img src="./imgs/button_Lessons.png" height="20" width="75" alt="Lessons"/></a></li>
+		<li><a target=_blank href = "salesOrServices.html"><img src="./imgs/button_Sales-or-Services.png" height="20" width="75" alt="Sales or Services"/></a></li>
+		<li><a target=_blank href = "aboutPage.html"><img src="./imgs/button_About-Us.png" height="20" width="75" alt="About Us"/></a></li>
+	  </ul>
+  </div>
+  <div class="secondFloat">
+	  <table id = "changeColor">
+		<tr>
+		  <th>Style</th>
+		  <th>Used Gear</th>
+		  <th colspan = "3">New Gear</th>
+		</tr>
+		<tr>
+		  <th colspan = "2"></th>
+		  <th>Boards</th>
+		  <th>Rigs</th>
+		  <th>Accessories</th>
+		</tr>
+		<tr>
+		  <td rowspan = "3">High Wind</td>
+		  <td>Boards &lt; 100L</td>
+		  <td>Wave</td>
+		  <td>RDM Mast</td>
+		  <td>Helmet</td>
+		</tr>
+		<tr>
+		  <td>Sails &lt; 5.0</td>
+		  <td>Freeride</td>
+		  <td>SDM Mast</td>
+		  <td>Harness</td>
+		</tr>
+		<tr>
+		  <td>Harness</td>
+		  <td>Freestyle</td>
+		  <td>Sails &lt; 5.0</td>
+		  <td>Harness Lines</td>
+		</tr>
+		<tr>
+		  <td rowspan = "3">Light Wind</td>
+		  <td>Boards &gt; 100L</td>
+		  <td>Course Racing</td>
+		  <td>Mast</td>
+		  <td>Life jackets</td>
+		</tr>
+		<tr>
+		  <td>Sails &gt; 5.0</td>
+		  <td>Widestyle</td>
+		  <td>Sails &gt; 5.0</td>
+		  <td>Inflatable Life Jackets</td>
+		</tr>
+		<tr>
+		  <td>Wetsuits</td>
+		  <td>SUP/Windsurf</td>
+		  <td>Booms</td>
+		  <td>Wetsuits</td>
+		</tr>
+		<tr>
+		  <td rowspan = "2">No Wind</td>
+		  <td>SUP Boards</td>
+		  <td>SUP</td>
+		  <td></td>
+		  <td>Aluminum Paddle</td>
+		</tr>
+		<tr>
+		  <td>Boardshorts</td>
+		  <td>Inflatable SUP</td>
+		  <td></td>
+		  <td>Carbon Paddle</td>
+		</tr>
+	  </table>
+	  <button id = "button" type = "button" onclick = "changeColor()">Change Table</button>
+  </div>
+  <div class="bottom">
+	  <footer><span class="Windstore">Windstore:</span> The one stop for all of your windsurfing needs!<Span id="date"> Today's date:</span>
+	  <span id = "showDate" ></span></footer>
+  </div>
+ </body>
+</html>

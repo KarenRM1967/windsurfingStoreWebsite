@@ -1,0 +1,122 @@
+/*Karen Rees-Milton*/
+/*style for in class website*/
+table{
+	width:80%;
+	padding: 5em;
+	margin: 5em;
+	background-color: Thistle;
+}
+table, td, th {
+	border:thick solid gray;
+	border-collapse: collapse;
+}
+body{
+	background:Gainsboro;
+	font-family: Arial, "Times New Roman", serif;
+}
+.buttons{
+	list-style-type: none;
+}
+.circles{
+	list-style-type: disc;
+}
+ul, ol{
+	width: 60%;
+}
+ol{
+	background-color: LightCyan;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 25%;
+	width: 35%;
+	min-width: 5em;
+	border: thick solid black;
+}
+#date, #showDate{
+	font-style: oblique;
+	color: RoyalBlue;
+}
+a{
+	color: blue;
+}
+a:visited{
+	color: purple
+}
+a:hover{
+	color: red;
+}
+.Windstore{
+	color: BlueViolet;
+	font-style: italic;
+}
+.top{
+	text-align:center;
+	border-bottom: 0.3em black double;
+	font-size:2.5em;
+}
+.firstFloat{
+	float:left;
+	width:20%;
+	padding-left:1%;
+	min-height:21em;
+}
+.secondFloat{
+	float: left;
+	width:75%;
+	border-left: 0.4em black solid;
+	padding-left: 1%;
+	margin-left:2%;
+	min-height: 21em;
+	margin-top: 0.4em;
+	margin-bottom: 0.4em;
+}
+.bottom{
+	clear: both;
+	text-align:center;
+	border-top: 0.3em black double;
+	font-size:1em;
+	margin: 1em;
+	padding: 1em;
+}
+fieldset{
+	border: 0.4em double Indigo;
+	margin: 2em;
+	width: 80%;
+	min-width: 35em;
+}
+.submit{
+	margin: 1em;
+}
+label, legend{
+	font-weight: bold;
+}
+input{
+	margin-bottom: 0.5em;
+}
+input[type = "text"], input[type = "password"]{
+	background:lightgreen;
+}
+#button{
+	margin: 1em;
+}
+h1, h2{
+	color: DarkBlue;
+}
+h1{
+	backgroud-color: Aqua;
+	text-align: center;
+	min-width: 5em;
+}
+.text{
+	background-color: AliceBlue;
+	padding: 1em;
+	min-width:10em;
+}
+footer{
+	margin: 1em;
+}
+.help{
+	text-align: center;
+}
